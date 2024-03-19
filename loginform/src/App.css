@@ -1,0 +1,246 @@
+.login_form{
+  background-color: rgb(248, 250, 250);
+  height: 600px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 20px;
+  border-radius: 3%;
+}
+.login{
+  background-color:rgb(231, 203, 250);
+  /* height: 100%; */
+  height: 600px;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+.new{
+  height: 200px;
+  width: 400px;
+  border: 1px solid red;
+  background-color: blue;
+  color: blanchedalmond;
+}
+
+.main1{
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px;
+  font-weight: lighter;
+  margin-bottom: 50px;
+  margin-left: 100px;
+  padding-bottom: 20px;
+
+}
+
+.main2,.main3,.main4,.main5{
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.main22>input{
+  height: 30px;
+  width: 350px;
+  outline: none;
+
+}
+.log_forms2>img{
+  height: 500px;
+  width: 500px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.login_form{
+  display: flex;
+  justify-content: center;
+}
+
+
+.login_forms1{
+
+  margin-top: 100px;
+  display: flex;
+  /* gap: 10px; */
+  justify-content: center;
+}
+
+.main1{
+
+  margin-bottom: 30px;
+}
+
+.hello>span{
+color: blue;
+}
+
+
+.main6>button{
+  height: 30px;
+  width: 80px;
+  margin-left: 150px;
+  margin-top: 20px;
+  background-color: rgb(62, 62, 209);
+  color: white; 
+  cursor :pointer;
+  border: none;
+}
+
+.main5{
+  /* margin-left: 120px; */
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+
+}
+.cheak{
+  margin-left: 50px;
+}
+
+.sidelogo>img{
+  height: 15px;
+  width: 15px;
+  margin-left: -40px;
+  background-color: rgb(252, 227, 252);
+}
+
+
+
+@media screen and (min-width: 769px) and (max-device-width: 1142px){
+
+  
+    .main1{
+      
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 20px;
+      margin-bottom: 5px;
+      margin-left: 10px;
+      padding-bottom: 2px;
+    }
+
+    .login_forms1{
+      margin-left: 200px;
+    }
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .login_form {
+    height: 100%;
+    margin: 20px;
+    border-radius: 10px;
+  }
+
+  .login {
+    height: 100%;
+    padding: 30px;
+  }
+
+  .main1 {
+    font-size: 40px;
+    margin-left: 50px;
+  }
+
+  .main22 > input {
+    width: 300px;
+  }
+
+  .log_forms2 > img {
+    height: 200px;
+    width: 200px;
+    margin: 20px auto;
+    margin-top: 162px;
+    margin-right: 142px;
+  }
+
+  .main6 > a > button {
+    height: 40px;
+    width: 120px;
+    margin: 20px auto;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 460px) and (max-width: 768px) {
+  .login_form {
+    height: auto; 
+    margin: 10px; 
+    border-radius: 5px; 
+  }
+
+  .login {
+    height: auto; 
+    padding: 15px; 
+  }
+
+  .main1 {
+    font-size: 30px; 
+    margin-left: 70px; 
+  }
+
+  .main22 > input {
+    width: 200px; 
+  }
+
+  .log_forms2 > img {
+    display: none;
+  } 
+
+  .main6 > a > button {
+    height: 30px; 
+    width: 100px; 
+    margin: 20px auto;
+    margin-left: 77px;
+  }
+
+  .login_forms1 {
+    margin-top: 40px;
+    display: flex;
+    /* gap: 10px; */
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+}
+
+
+.main5{
+  margin-left: -47px;
+    display: flex;
+    justify-content: center;
+}
+}
+
+
+.CountADD{
+
+  color: red;
+  margin-left: 30px;
+}
+
+.Countval{
+  color: blue;
+}
+
+/* .main2,.main3,.main4,.main5>div> img{
+
+  
+
+} */
